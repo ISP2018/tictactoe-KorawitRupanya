@@ -7,7 +7,7 @@ A tic-tac-toe game written using JavaFX.
 | Class  | Responsibility              |
 |--------|-----------------------------|
 | Main   | Start the app, show the view. |
-| GameUI.fxml | FXML file for game board and buttons. |
+| GameUI.fxml    | FXML file for game board and buttons. |
 | GameController | Handle user input, update game. |
 | TicTacToeGame  | "Model" in MVC. Logic for tic-tac-toe. Also updates board. |
 | Board          | View of the game board, using JavaFX components. |
