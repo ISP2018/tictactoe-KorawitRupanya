@@ -52,6 +52,9 @@ public class TicTacToeGame {
 	public boolean canMoveTo(Player player, int col, int row) {
 		if (row<0 || row>pieces.length) return false;
 		if (col<0 || col>pieces[row].length) return false;
+		//no move allowed after game is over
+		if(isGameOver())return false;
+		// check if square is empty
 		return pieces[row][col] == null || pieces[row][col] == Piece.NONE;
 	}
 	
@@ -74,9 +77,8 @@ public class TicTacToeGame {
 		/** next player's turn to move. */
 		if (piece.type == Player.X) nextPlayer = Player.O;
 		else nextPlayer = Player.X;
-		/** after each move check if board is full */
-		if (boardIsFull()) gameOver.set(true);
-		
+		/** after each move check if board is full and also Check if someone won the game */
+		if(boardIsFull()|| winner()!=Player.NONE) gameOver.set(true);
 	}
 	
 	/**
