@@ -12,7 +12,8 @@ import javafx.stage.Stage;
 
 /**
  * Launch the JavaFX application.
- *
+ * 
+ * @author jim
  */
 public class Main extends Application {
 
