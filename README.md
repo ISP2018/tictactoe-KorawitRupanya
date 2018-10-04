@@ -3,7 +3,7 @@
 ### Description
 
 Status of last [Travis CI build](https://travis-ci.com/KorawitRupanya/tictactoe): 
-[![Build Status](https://travis-ci.com/KorawitRupanya/tictactoe.svg?branch=master)](https://travis-ci.com/KorawitRupanya/tictactoe)
+[![Build Status](https://travis-ci.org/KorawitRupanya/tictactoe.svg?branch=master)](https://travis-ci.org/KorawitRupanya/tictactoe)
 
 
 A tic-tac-toe game written using JavaFX.
