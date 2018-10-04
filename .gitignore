@@ -4,5 +4,7 @@ bin/
 build/
 out/
 
+# Eclipse
 .classpath
+
 *.project
